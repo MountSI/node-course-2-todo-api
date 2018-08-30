@@ -3,10 +3,9 @@ var mongoose = require('mongoose');
 var Todo = mongoose.model('Todo', {
   text: {
   type: String,
-  requied: true,
+  required: true,
   minlength: 1,
-  trim: true,
-
+  trim: true
   },
   completed: {
     type: Boolean,
